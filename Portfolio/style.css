@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #1f242d;
+    color:#fff;
+}
+
+.header{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 50px;
+    padding:20px 10%;
+    background:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: #0ef;
+}
+
+.logo{
+    display: flex;
+    font-size: 25px;
+    color:#fff;
+    text-decoration:none;
+    font-weight: 600;
+    cursor:default;
+    background: transparent; 
+}
+
+.navbar a{
+    display: inline;
+    padding:10px;
+    font-size: 18px;
+    margin-left: 56px;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .3s;
+    background: transparent;
+    z-index: 1000;
+}
+
+.navbar a:hover,
+.navbar a:active{
+    color:#0ef;
+}
+
+.home{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:70px 10% 0;
+}
+
+.home-content{
+    max-width: 600px;
+}
+
+.home-content h3{
+    font-size:32px;
+    font-weight: 700;
+}
+
+.home-content h3:nth-of-type(2){
+    margin-bottom:30px ;
+}
+
+.home-content h3 span{
+    color:#0ef;
+}
+
+.home-content h1{
+    color:#0ef;
+    font-size:40px;
+    font-weight: 700;
+    margin:-3px 0;
+}
+
+.home-content p{
+    font-size:16px;
+}
+
+.home-img img{
+    display: flex;
+    border-radius: 50%;
+    width: 350px;
+    height:350px;
+    border:0.2rem solid #0ef;
+}
+
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height:40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 20px;
+    color:#0ef;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    transition: .5s ease;
+}
+
+.social-media a:hover{
+    background: #0ef;
+    color:#1f242d;
+    box-shadow: 0 0 20px #0ef;
+}
+
+.btn{
+    display: inline-block;
+    padding:12px 28px;
+    background:#0ef;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #0ef;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px;
+    background-color:#222a38;
+    padding-bottom: 5rem;
+}
+
+.heading{
+    margin-top: 80px;
+    text-align: center;
+    font-size:40px;
+    font-weight: 700; 
+    margin-bottom: 1rem;
+}
+
+.about-img {
+    position: relative;
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem; 
+    justify-content: center;
+    align-items: center;
+}
+
+.about-img img{
+    width:90%;
+    border-radius: 50%;
+    border:0.2rem solid #0ef;
+}
+
+span{
+    color:#0ef;
+}
+
+.about-content{
+    text-align: center;
+}
+
+.about-content h3{
+    font-size:32px;
+    font-weight: 700;
+    color:#0ef;
+}
+
+.about-content p{
+    font-size:16px;
+    margin: 1rem 6rem 1rem 6rem;
+}
+
+.education{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: auto;
+    padding-bottom:5rem;
+}
+
+.heading{
+    margin-top: 80px;
+    text-align: center;
+    font-size:40px;
+    font-weight: 700; 
+    margin-bottom: 1rem;
+}
+
+.education .education-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:5rem;
+}
+
+.education-row .education-column{
+    flex:1 1 40rem;
+}
+
+.education-column .title{
+    font-size:32px;
+    font-weight: 700;
+    margin: 0 0 1.5rem 2rem;
+}
+
+.education-column .education-box{
+    border-left:0.2rem solid #0ef;
+}
+
+.education-box .education-content{
+    position: relative;
+    padding-left:2rem;
+}
+
+.education-content .content{
+    display: inline-block;
+    position: relative;
+    padding: 1.5rem;
+    border:0.2rem solid #0ef;
+    border-radius: 0.6rem;
+    margin-bottom: 2rem;
+}
+
+.education-content .content .year{
+    font-size: 1rem;
+    color: #0ef;
+    padding-bottom: 0.5rem;
+}
+
+.education-content .content .year i{
+    padding-right: 0.5rem;
+}
+
+.education-content .content h4{
+    font-size:1rem;
+}
+
